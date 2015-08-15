@@ -1,0 +1,8 @@
+
+-- DATABASE MODEL FOR LEADERBOARD
+
+CREATE TABLE IF NOT EXISTS `Leaderboard` (
+  `idLeaderboard` INT NOT NULL,
+  `username` VARCHAR(45) NULL,
+  `score` VARCHAR(45) NULL
+) ENGINE = InnoDB;
